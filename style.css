@@ -31,7 +31,7 @@ body {
     color: white;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 0 300px;
     max-width: 100%;
     justify-content: center;
     margin-bottom: 30px;
@@ -42,7 +42,7 @@ body {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
-    margin-right: 4rem;
+    margin-right: 2rem;
 }
 
 .footer-heading h2 {
@@ -106,7 +106,7 @@ body {
 .footer-foot {
     display: flex;
     align-items: center;
-    margin-left: 170px;
+    margin-left: 290px;
 }
 
 .footer-foot div {
@@ -128,6 +128,10 @@ body {
 }
 
 @media (max-width: 1024px) {
+    .footer {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
     .footer-4 {
         display: none;
     }
