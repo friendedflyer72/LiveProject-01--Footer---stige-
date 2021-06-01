@@ -1,0 +1,20 @@
+/* Sohne - Regular */
+
+@font-face {
+    font-family: 'Sohne';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Sohne Buch'), local('Sohne-Buch'), url('sohne-buch.woff2') format('woff2'), url('sohne-buch.woff') format('woff');
+}
+
+
+/* Sohne - Bold */
+
+@font-face {
+    font-family: 'Sohne';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Sohne Halbfett'), local('Sohne-Halbfett'), url('sohne-halbfett.woff2') format('woff2'), url('sohne-halbfett.woff') format('woff');
+}

@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: black;
-    height: 100px;
-    /* height not working */
-}
-
 .footer-line hr {
     max-width: 100%;
     opacity: 0.3;
@@ -18,7 +12,7 @@ body {
 
 .footer-container {
     height: 10%;
-    font-family: sans-serif;
+    font-family: "Sohne", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
     background-color: black;
     color: white;
@@ -107,6 +101,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: 290px;
+    padding-bottom: 20px;
 }
 
 .footer-foot div {
@@ -184,6 +179,9 @@ body {
     .dn-2 {
         display: flex;
         justify-content: center;
+    }
+    .dn-2 a {
+        margin-right: 15px;
     }
     .dn-3 {
         margin-top: 3px;
